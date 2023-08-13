@@ -5,7 +5,7 @@ LICENSE = "GPL-2.0-only"
 inherit kernel
 inherit kernel-yocto
 
-SRC_URI = "git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git;protocol=git;nocheckout=1;"
+SRC_URI = "git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git;protocol=git;nocheckout=1;nobranch=1"
 #SRC_URI += "file://defconfig"
 #SRC_URI += "file://0001-Learning-yocto-add-new-kernel-driver.patch"
 #SRC_URI += "file://new-kernel-driver.cfg"
